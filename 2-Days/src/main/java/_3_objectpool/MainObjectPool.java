@@ -9,11 +9,9 @@ public class MainObjectPool {
         Connection c2 = pool.getInstance();
         Connection c3 = pool.getInstance();
 
-
         System.out.println(c1.hashCode());
         System.out.println(c2.hashCode());
         System.out.println(c3.hashCode());
-
 
     }
 }
